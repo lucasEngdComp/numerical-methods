@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="pt-br" xml:lang="pt-br">
+<head>
+    <title>Ambiente de Apoio aos Cursos Presenciais do IFPB: Acesso ao site</title>
+    <link rel="shortcut icon" href="https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Ambiente de Apoio aos Cursos Presenciais do IFPB: Acesso ao site" />
+<link rel="stylesheet" type="text/css" href="https://presencial.ifpb.edu.br/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://presencial.ifpb.edu.br/theme/styles.php/ifpb18/1624045962/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/presencial.ifpb.edu.br","sesskey":"y3bv74izWE","loadingicon":"https:\/\/presencial.ifpb.edu.br\/theme\/image.php\/ifpb18\/core\/1624045962\/i\/loading_small","themerev":"1624045962","slasharguments":1,"theme":"ifpb18","jsrev":"1624045962","admin":"admin","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"https:\/\/presencial.ifpb.edu.br\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/presencial.ifpb.edu.br\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/presencial.ifpb.edu.br\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/presencial.ifpb.edu.br\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/presencial.ifpb.edu.br\/theme\/yui_combo.php?m\/1624045962\/","combine":true,"comboBase":"https:\/\/presencial.ifpb.edu.br\/theme\/yui_combo.php?","ext":false,"root":"m\/1624045962\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-event":{"requires":["event-custom"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core_availability-form":{"requires":["base","node","event","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-calendar-info":{"requires":["base","node","event-mouseenter","event-key","overlay","moodle-calendar-info-skin"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-toolboxes":{"requires":["node","base","event-key","node","io","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-passwordunmask":{"requires":["node","base"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-core_message-messenger":{"requires":["escape","handlebars","io-base","moodle-core-notification-ajaxexception","moodle-core-notification-alert","moodle-core-notification-dialogue","moodle-core-notification-exception"]},"moodle-core_message-deletemessage":{"requires":["node","event"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_bigbluebuttonbn-modform":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-rooms":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-broker":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-imports":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-recordings":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_quiz-util":{"requires":["node"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-tinymce_mathslate-snippeteditor":{"requires":["json"]},"moodle-tinymce_mathslate-editor":{"requires":["dd-drag","dd-proxy","dd-drop","event","tabview","io-base","json","moodle-tinymce_mathslate-textool","moodle-tinymce_mathslate-mathjaxeditor"]},"moodle-tinymce_mathslate-textool":{"requires":["dd-drag","dd-proxy","dd-drop","event","json"]},"moodle-tinymce_mathslate-dialogue":{"requires":["escape","moodle-local_mathslate-editor","moodle-tinymce_mathslate-editor"]},"moodle-tinymce_mathslate-mathjaxeditor":{"requires":["moodle-tinymce_mathslate-snippeteditor","dd-drop"]}}},"gallery":{"name":"gallery","base":"https:\/\/presencial.ifpb.edu.br\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/presencial.ifpb.edu.br\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1624045962\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/presencial.ifpb.edu.br\/lib\/javascript.php\/1624045962\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/presencial.ifpb.edu.br\/lib\/javascript.php\/1624045962\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-89190852-1', 'auto');
+  ga('send', 'pageview');
+
+</script><meta name="robots" content="noindex" />    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+<!-- video youtube
+<style>
+@media screen and (max-width: 1000px) {	
+/* The Modal (background) */
+.modalaviso {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modalaviso-content {
+	width: 300px;
+	height: 169px;
+    margin: auto;
+	background-repeat: no-repeat;
+	/*background-image: url('../theme/ifpb16/pix/novoava.jpg');*/
+    background-color: white;
+	border: 1px solid #888;	
+	background-size:300px 149px;
+}
+
+#popupvid{
+	width: 300px; 
+	height: 149px;
+}
+
+/* The Close Button */
+.modalclose {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#noticiaportal{
+	/*background-image: url('../theme/ifpb16/pix/portalbotao.png');*/
+	width: 40px;
+	height: 10px;
+	background-size: auto 100%;	
+	background-repeat: no-repeat;
+	cursor: pointer;
+	margin-top: 139px;
+	margin-left: 260px;
+	padding:0;
+
+}	
+	
+}	
+
+@media screen and (min-width: 1001px) {
+/* The Modal (background) */
+.modalaviso {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modalaviso-content {
+	width: 600px;
+	height: 319px;
+    margin: auto;
+	background-repeat: no-repeat;
+	/*background-image: url('../theme/ifpb16/pix/novoava.jpg');*/
+	background-color: white;
+    border: 1px solid #888;	
+	background-size:600px 299px;
+}
+
+/* The Close Button */
+.modalclose {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#popupvid{
+	width: 600px; 
+	height: 299px;
+    background-color: black;
+}
+
+#noticiaportal{
+	/*background-image: url('../theme/ifpb16/pix/portalbotao.png');*/
+	width: 100px;
+	height: 25px;
+	background-size: auto 100%;	
+	background-repeat: no-repeat;
+	cursor: pointer;
+	margin-top:274px;
+	margin-left: 475px;
+	padding:0;
+
+}
+}
+
+.modalclose:hover,
+.modalclose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+
+do video youtube
+-->
+
+<style>
+@media screen and (max-width: 1000px) { 
+/* The Modal (background) */
+.modalaviso {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modalaviso-content {
+    width: 200px;
+    height: 221px;
+    margin: auto;
+    background-repeat: no-repeat;
+    /*background-image: url('../theme/ifpb16/pix/novoava.jpg');*/
+    background-color: white;
+    border: 1px solid #888; 
+    background-size:300px 149px;
+}
+
+#popupvid{
+    width: 300px; 
+    height: 149px;
+}
+
+/* The Close Button */
+.modalclose {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#noticiaportal{
+    /*background-image: url('../theme/ifpb16/pix/portalbotao.png');*/
+    width: 40px;
+    height: 10px;
+    background-size: auto 100%; 
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top: 139px;
+    margin-left: 260px;
+    padding:0;
+
+}   
+    
+}   
+
+@media screen and (min-width: 1001px) {
+/* The Modal (background) */
+.modalaviso {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 130px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modalaviso-content {
+    width: 500px;
+    height: 521px;
+    margin: auto;
+    background-repeat: no-repeat;
+    /*background-image: url('../theme/ifpb16/pix/novoava.jpg');*/
+    background-color: white;
+    border: 1px solid #888; 
+    background-size:600px 299px;
+}
+
+/* The Close Button */
+.modalclose {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#popupvid{
+    width: 600px; 
+    height: 299px;
+}
+
+#noticiaportal{
+    /*background-image: url('../theme/ifpb16/pix/portalbotao.png');*/
+    width: 100px;
+    height: 25px;
+    background-size: auto 100%; 
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top:274px;
+    margin-left: 475px;
+    padding:0;
+
+}
+}
+
+.modalclose:hover,
+.modalclose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+	
+	
+</head>
+
+<body  id="page-login-index" class="format-site  path-login gecko dir-ltr lang-pt_br yui-skin-sam yui3-skin-sam presencial-ifpb-edu-br pagelayout-login course-1 context-1 notloggedin content-only layout-option-langmenu">
+
+<div id="barralogin">	
+	<img class="ava" src="https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/ambientevirtual" alt="Ambiente Virtual de Aprendizagem" />  	
+	<img class="nuvem" src="https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/nuvem" alt="Imagem de Nuvem" />
+</div>
+
+<div class="skiplinks"><a class="skip" href="#maincontent">Ir para o conte√∫do principal</a></div>
+<script type="text/javascript" src="https://presencial.ifpb.edu.br/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&amp;rollup/1624045962/mcore-min.js"></script><script type="text/javascript" src="https://presencial.ifpb.edu.br/lib/javascript.php/1624045962/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+
+<div id="page" class="container-fluid">
+
+
+    <div id="page-content" class="row-fluid">
+        <section id="region-main" class="span12">
+            <span class="notifications" id="user-notifications"></span><div role="main"><span id="maincontent"></span><div class="loginbox clearfix onecolumn">
+  <div class="loginpanel">
+
+<script type="text/javascript">
+  var onSubmit = function(response) {
+    document.getElementById("login").submit(); // send response to your backend service
+  };
+</script>
+    
+<!-- video youtube
+<div id="myModal" class="modalaviso">
+	<div class="modalaviso-content">
+		<span class="modalclose">&times;</span>
+		
+		
+		
+		
+		<div align="center">
+			<a href="http://www.ifpb.edu.br/noticias/2018/09/ambiente-virtual-de-aprendizagem-do-ifpb-ganha-nova-versao" target="blank">
+				Mais informaÁıes
+			</a>
+
+			<video id="popupvid" controls="">
+  				<source src="v1.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>						
+
+		</div>
+	</div>
+</div>
+
+<script>
+
+
+// Get the modal
+var modal = document.getElementById('myModal');
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("modalclose")[0];
+modal.style.display = "none";
+ativarApresentacao();
+
+
+function ativarApresentacao(){
+	var modal = document.getElementById('myModal');
+	modal.style.display = "block";
+	document.getElementById('popupvid').play();
+}
+
+
+
+function pausarVideo() {
+    //var iframe = document.getElementById("popupvid").contentWindow;
+    //func = 'pauseVideo';
+   // iframe.postMessage('{"event":"command","func":"' + func + '","args":""}', '*'); //este È para youtube
+   document.getElementById('popupvid').pause();
+
+}
+
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+	pausarVideo();
+	modal.style.display = "none";	
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+		pausarVideo();
+		modal.style.display = "none";
+    }
+}
+
+
+
+
+</script>
+fim video youtube
+-->
+<div id="myModal" class="modalaviso">
+  <!-- Modal content -->
+	<div class="modalaviso-content">
+		<span class="modalclose">&times;</span>
+		<div src="bannersisuifpb.png" align="center">	
+			<a href="https://www.ifpb.edu.br/noticias/2021/04/sisu-inscricoes-comecam-nesta-terca-feira" target="_blank"><img style="width: 100%; height: auto;" src="bannersisuifpb.png" /></a>
+		</div>
+	</div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("modalclose")[0];
+
+modal.style.display = "none"
+
+
+
+function pausarVideo() {
+    var iframe = document.getElementById("popupvid").contentWindow;
+    func = 'pauseVideo';
+    iframe.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
+}
+
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+	//pausarVideo();
+	modal.style.display = "none";	
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+		//pausarVideo();
+		modal.style.display = "none";
+    }
+}
+</script>  
+	<div class="subcontent loginsub">
+						
+	</div>  
+		<div id="container">
+			<div id="content">
+				<div id="loginesq"> 
+					<a href="https://www.ifpb.edu.br/ead/paginas-moodle/tutoriais" target="blank"><img onmouseover="this.src='https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/tutoriais'" onmouseout="this.src='https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/0tutoriais'" src="https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/0tutoriais" alt="Acessar Tutoriais" /></a> 
+				</div>
+				<div id="loginmeio"> 
+					<div id="topmain">
+						<div id="topmainl"><a href="https://www.ifpb.edu.br/ead/paginas-moodle/suporteavapresencial" target="blank"><img class="imgsuporte" onmouseover="this.src='https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/suporte'" onmouseout="this.src='https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/0suporte'" src="https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/0suporte" alt="Acessar Suporte" /> </a></div>
+						<div id="topmainr"><a href="https://www.ifpb.edu.br/ead/paginas-moodle/duvidasavapresencial" target="blank"><img class="imgduvidas" onmouseover="this.src='https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/duvidas'" onmouseout="this.src='https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/0duvidas'" src="https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/0duvidas" alt="Acessar D√∫vidas" /></a></div>					
+					</div>
+					<div id="mainlogin">
+						<div class="formulario">
+							<div class="formlogin corava">
+							<form action="https://presencial.ifpb.edu.br/login/index.php" method="post" id="login"  >
+										  <div class="loginform">
+											<div class="rotulo"><label for="username">Usu√°rio</label></div>
+											<div class="caixa">
+											  <input type="text" name="username" id="username" value="" />
+											</div>
+											<div class="clearer"><!-- --></div>
+											<div class="rotulo"><label for="password">Senha</label></div>
+											<div class="caixa">
+											  <input type="password" name="password" id="password" value=""  />
+											</div>
+										  </div>											
+											<div class="clearer"><!-- --></div>
+											  											  <div class="rememberpass">
+												  <input type="checkbox" name="rememberusername" id="rememberusername" value="1"  />
+												  <label for="rememberusername">Lembrar Usu√°rio</label>
+											  </div>
+											  										  <div class="clearer"><!-- --></div>
+										  <script src='https://www.google.com/recaptcha/api.js'></script>
+										  <button
+											class="g-recaptcha"
+											data-sitekey="6Le0JHEUAAAAALmKKN17XqYpUYmilGsxamXMU5BZ"
+											data-callback="onSubmit">
+											Acessar
+										  </button>
+										  <br /><br />
+										  <div class="forgetpass"><a class="corava" href="forgot_password.php">Esqueceu o seu usu√°rio ou senha?</a></div>
+										  <input type="hidden" name="logintoken" value="tN1EYlbFNpsYb9JNsDRSZcbunGtXSCSK" />
+							</form>
+							</div>
+						</div>		
+						<br /><br />
+					</div>
+				</div>	
+				<div id="logindir"> 
+					<a href="https://www.ifpb.edu.br/ead/paginas-moodle/calendariosavapresencial" target="blank"><img onmouseover="this.src='https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/calendario'" onmouseout="this.src='https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/0calendario'" src="https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/0calendario" alt="Acessar politicas" /></a>
+				</div>			
+			</div>		
+		</div>
+
+		
+		
+
+     </div>
+
+</div>
+</div>        </section>
+    </div>
+
+
+    <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://presencial.ifpb.edu.br/lib/requirejs.php/1624045962/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://presencial.ifpb.edu.br/lib/javascript.php/1624045962/lib/jquery/jquery-1.12.1.min',
+        jqueryui: 'https://presencial.ifpb.edu.br/lib/javascript.php/1624045962/lib/jquery/ui-1.11.4/jquery-ui.min',
+        jqueryprivate: 'https://presencial.ifpb.edu.br/lib/javascript.php/1624045962/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://presencial.ifpb.edu.br/lib/javascript.php/1624045962/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["core/notification"], function(amd) { amd.init(1, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript" src="https://presencial.ifpb.edu.br/theme/javascript.php/ifpb18/1624045962/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima atualiza\u00e7\u00e3o","name":"Nome","error":"Erro","info":"Informa\u00e7\u00e3o","yes":"Sim","no":"N\u00e3o","morehelp":"Mais ajuda","loadinghelp":"Carregando...","cancel":"Cancelar","confirm":"Confirmar","areyousure":"Voc\u00ea tem certeza?","closebuttontitle":"Fechar","unknownerror":"Erro desconhecido","changesmadereallygoaway":"Voc\u00ea fez altera\u00e7\u00f5es. Est\u00e1 certo de que quer sair e abandonar suas altera\u00e7\u00f5es?"},"repository":{"type":"Tipo","size":"Tamanho","invalidjson":"palavra JSON inv\u00e1lida","nofilesattached":"Nenhum arquivo anexado","filepicker":"File picker","logout":"Sair","nofilesavailable":"Nenhum arquivo dispon\u00edvel","norepositoriesavailable":"Desculpe, nenhum dos seus reposit\u00f3rios atuais pode retornar arquivos no formato solicitado.","fileexistsdialogheader":"Arquivo existe","fileexistsdialog_editor":"Um arquivo com este nome j\u00e1 foi anexado ao texto que voc\u00ea est\u00e1 editando","fileexistsdialog_filemanager":"Um arquivo com este nome j\u00e1 foi anexado","renameto":"Renomear para \"{$a}\"","referencesexist":"H\u00e1 {$a} arquivos pseud\u00f4nimos\/atalhos que usam este arquivo como fonte","select":"Selecione"},"admin":{"confirmdeletecomments":"Voc\u00ea est\u00e1 prestes a excluir coment\u00e1rios, tem certeza?","confirmation":"Confirma\u00e7\u00e3o"},"block":{"addtodock":"Mover isto para a dock","undockitem":"Remover este item do dock","dockblock":"Colocar o bloco {$a} em doc","undockblock":"Retirar bloco {$a} do dock","undockall":"Remover todos do dock","hidedockpanel":"Esconder o painel dock","hidepanel":"Esconder o painel"},"langconfig":{"thisdirectionvertical":"btt"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+Y.use("moodle-core-dock-loader",function() {M.core.dock.loader.initLoader();
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.util.init_skiplink(Y);
+ M.util.js_pending('random6238c9c2de8543'); Y.on('domready', function() { M.util.focus_login_form(Y);  M.util.js_complete('random6238c9c2de8543'); });
+ M.util.js_pending('random6238c9c2de8544'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6238c9c2de8544'); });
+})();
+//]]>
+</script>
+
+</div>
+
+<div id="barrabot">	
+	<img class="logoifpb" src="https://presencial.ifpb.edu.br/theme/image.php/ifpb18/theme/1624045962/logoifpbcinza" alt="Logo IFPB" />  
+</div>
+</body>
+</html>
